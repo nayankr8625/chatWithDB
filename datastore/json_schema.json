@@ -1,0 +1,79 @@
+{
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "user_id": {
+            "type": "string"
+        },
+        "first_name": {
+            "type": "string"
+        },
+        "last_name": {
+            "type": "string"
+        },
+        "email": {
+            "type": "string"
+        },
+        "age": {
+            "type": "integer"
+        },
+        "emp_id": {
+            "type": "integer"
+        },
+        "address": {
+            "type": "string"
+        },
+        "department": {
+            "type": "string"
+        },
+        "designation": {
+            "type": "string"
+        },
+        "branch_code": {
+            "type": "integer"
+        },
+        "salary_in_lpa": {
+            "type": "number"
+        },
+        "dob": {
+            "type": "string",
+            "format": "date"
+        },
+        "date_of_joining": {
+            "type": "string",
+            "format": "date"
+        },
+        "relevant_experience": {
+            "type": "number"
+        },
+        "total_experience": {
+            "type": "number"
+        },
+        "skills": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "first_name",
+        "last_name",
+        "email",
+        "age",
+        "emp_id",
+        "address",
+        "department",
+        "designation",
+        "branch_code",
+        "salary_in_lpa",
+        "dob",
+        "date_of_joining",
+        "relevant_experience",
+        "total_experience",
+        "skills"
+    ]
+}
